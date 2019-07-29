@@ -1,0 +1,13 @@
+dist: trusty
+addons:
+  chrome: stable
+
+language: php
+
+php:
+  - '7.2'
+
+before_script:
+  - composer install
+
+script: ./vendor/bin/phpunit -c phpunit.xml
