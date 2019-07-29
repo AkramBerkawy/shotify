@@ -9,7 +9,9 @@
     }
   ],
   "description": "Html to PDF and web page screenshots using headless Chrome with no need for Nodejs/npm.\n",
+  "license": ["GPL-3.0-or-later"],
   "require": {
+    "php": "~7.1",
     "jakubkulhan/chrome-devtools-protocol": "^1.0"
   },
   "require-dev": {
